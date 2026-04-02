@@ -6,10 +6,11 @@
 
 **BTS SIO SISR · 2ème année · Perpignan, France**
 
-[![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?style=for-the-badge&logo=powershell&labelColor=0d1525)](https://learn.microsoft.com/fr-fr/powershell/)
-[![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D4?style=for-the-badge&logo=windows&labelColor=0d1525)](https://www.microsoft.com/fr-fr/windows)
+[![Live](https://img.shields.io/badge/🌐_Portfolio-thomas.portfoliobtssio66.fr-00f5ff?style=for-the-badge&labelColor=0d1525)](https://thomas.portfoliobtssio66.fr/)
 [![GitHub](https://img.shields.io/badge/GitHub-TGGSIO-ff00aa?style=for-the-badge&logo=github&labelColor=0d1525)](https://github.com/TGGSIO)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-thomas--gracia--gil-0077B5?style=for-the-badge&logo=linkedin&labelColor=0d1525)](https://www.linkedin.com/in/thomas-gracia-gil-321373304/)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?style=for-the-badge&logo=powershell&labelColor=0d1525)](https://learn.microsoft.com/fr-fr/powershell/)
+[![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D4?style=for-the-badge&logo=windows&labelColor=0d1525)](https://www.microsoft.com/fr-fr/windows)
 
 </div>
 
@@ -41,6 +42,8 @@ Conçu dans le cadre du BTS SIO option SISR, il répond à une problématique co
 ```
 Script-PowerShell-deploiement-.exe-.msi/
 ├── deploy.ps1          # Script principal
+├── assets/
+│   └── logo.svg        # Logo
 ├── Logs/               # Généré automatiquement à l'exécution
 │   └── InstallLog_*.txt
 └── README.md
@@ -133,8 +136,10 @@ Dans le hashtable `$genericAppNames` :
 
 ---
 
-## Auteur
+<div align="center">
 
-**Thomas Gracia Gil**  
-Étudiant BTS SIO SISR — Lycée Jean Lurçat, Perpignan  
-[LinkedIn](https://www.linkedin.com/in/thomas-gracia-gil-321373304/) · [GitHub](https://github.com/TGGSIO)
+**Thomas Gracia Gil** — Étudiant BTS SIO SISR · Lycée Jean Lurçat, Perpignan
+
+[🌐 thomas.portfoliobtssio66.fr](https://thomas.portfoliobtssio66.fr/) · [GitHub](https://github.com/TGGSIO) · [LinkedIn](https://www.linkedin.com/in/thomas-gracia-gil-321373304/)
+
+</div>
