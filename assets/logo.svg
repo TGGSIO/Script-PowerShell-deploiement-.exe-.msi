@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 104" width="44" height="38">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#ff00aa"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <polygon points="60,2 113,30 113,74 60,102 7,74 7,30" fill="#0d1525" stroke="url(#g1)" stroke-width="2.5" filter="url(#glow)"/>
+  <line x1="30" y1="52" x2="20" y2="52" stroke="#00f5ff" stroke-width="0.8" opacity="0.3"/>
+  <line x1="90" y1="52" x2="100" y2="52" stroke="#ff00aa" stroke-width="0.8" opacity="0.3"/>
+  <line x1="60" y1="10" x2="60" y2="20" stroke="#00f5ff" stroke-width="0.8" opacity="0.3"/>
+  <line x1="60" y1="94" x2="60" y2="84" stroke="#ff00aa" stroke-width="0.8" opacity="0.3"/>
+  <text x="60" y="58" text-anchor="middle" dominant-baseline="middle" font-family="Orbitron, sans-serif" font-weight="900" font-size="22" fill="url(#g1)" filter="url(#glow)" letter-spacing="1">TGG</text>
+</svg>
